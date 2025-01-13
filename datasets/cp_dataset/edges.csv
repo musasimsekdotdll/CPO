@@ -1,0 +1,96 @@
+source,metaedge,target
+Treatment::CPO00001,therapeutic,hydrocephalus
+Treatment::CPO00002,therapeutic,hydrocephalus
+Treatment::CPO00002,therapeutic,hydrocephalus
+Treatment::CPO00002,adverse,irritability
+Treatment::CPO00002,adverse,anorexia
+Treatment::CPO00002,adverse,c-reactive protein increased
+Treatment::CPO00002,adverse,subacute bacterial endocarditis
+Treatment::CPO00002,adverse,intracranial pressure increased
+Treatment::CPO00002,adverse,excessive daytime sleepiness
+Treatment::CPO00002,adverse,headache
+Treatment::CPO00002,adverse,lethargy
+Treatment::CPO00002,adverse,nausea
+Treatment::CPO00002,adverse,vomiting
+Treatment::CPO00003,therapeutic,neural tube defect
+Treatment::CPO00004,therapeutic,myoclonic epilepsy
+Treatment::CPO00005,therapeutic,epilepsy
+Treatment::CPO00005,adverse,motor dysfunction
+Treatment::CPO00005,adverse,language disorders
+Treatment::CPO00005,adverse,visual impairment
+Treatment::CPO00005,adverse,cognitive disorder
+Treatment::CPO00005,adverse,death
+Treatment::CPO00004,therapeutic,epilepsy
+Treatment::CPO00006,therapeutic,epilepsy
+Treatment::CPO00006,adverse,constipation
+Treatment::CPO00006,adverse,weight gain poor
+Treatment::CPO00006,adverse,hyperlipidaemia
+Treatment::CPO00006,adverse,calculus of kidney
+Treatment::CPO00007,therapeutic,epilepsy
+Treatment::CPO00008,therapeutic,epilepsy
+Treatment::CPO00009,therapeutic,epilepsy
+Treatment::CPO00009,adverse,mutism
+Treatment::CPO00009,adverse,apraxia
+Treatment::CPO00010,therapeutic,tourette's disorder
+Treatment::CPO00011,therapeutic,tourette's disorder
+Treatment::CPO00012,therapeutic,tourette's disorder
+Treatment::CPO00013,therapeutic,tourette's disorder
+Treatment::CPO00014,therapeutic,tourette's disorder
+Treatment::CPO00015,therapeutic,tourette's disorder
+Treatment::CPO00016,therapeutic,tourette's disorder
+Treatment::CPO00017,therapeutic,dystonia
+Treatment::CPO00018,therapeutic,dystonia
+Treatment::CPO00019,therapeutic,dystonia
+Treatment::CPO00017,adverse,dysarthria
+Treatment::CPO00017,adverse,dysphagia
+Treatment::CPO00020,therapeutic,myoclonus
+Treatment::CPO00021,therapeutic,myoclonus
+Treatment::CPO00022,therapeutic,myoclonus
+Treatment::CPO00023,therapeutic,myoclonus
+Treatment::CPO00004,therapeutic,myoclonus
+Treatment::CPO00024,therapeutic,myoclonus
+Treatment::CPO00025,therapeutic,guillain-barre syndrome
+Treatment::CPO00026,therapeutic,guillain-barre syndrome
+Treatment::CPO00027,therapeutic,dysphagia
+Treatment::CPO00028,therapeutic,dysphagia
+Treatment::CPO00004,therapeutic,seizures
+Treatment::CPO00008,therapeutic,seizures
+Treatment::CPO00004,therapeutic,rett syndrome
+Treatment::CPO00008,therapeutic,rett syndrome
+Treatment::CPO00029,therapeutic,gastrointestinal disorder
+Treatment::CPO00030,therapeutic,gastrointestinal disorder
+Treatment::CPO00030,therapeutic,rett syndrome
+Treatment::CPO00031,therapeutic,rett syndrome
+Treatment::CPO00032,therapeutic,rett syndrome
+Treatment::CPO00033,therapeutic,rett syndrome
+Treatment::CPO00034,therapeutic,rett syndrome
+Treatment::CPO00035,therapeutic,sleep phase rhythm disturbance
+Treatment::CPO00036,therapeutic,sleep phase rhythm disturbance
+Treatment::CPO00037,therapeutic,diplegia
+Treatment::CPO00038,therapeutic,diplegia
+Treatment::CPO00039,therapeutic,hemiplegia
+Treatment::CPO00019,therapeutic,extrapyramidal disorders
+Treatment::CPO00040,therapeutic,scoliosis
+Treatment::CPO00040,adverse,dermatitis
+Treatment::CPO00040,adverse,infection
+Treatment::CPO00040,adverse,skin breakdown
+Treatment::CPO00041,therapeutic,scoliosis
+Treatment::CPO00042,therapeutic,scoliosis
+Treatment::CPO00043,therapeutic,scoliosis
+Treatment::CPO00019,therapeutic,chorea
+Treatment::CPO00018,therapeutic,chorea
+Treatment::CPO00044,therapeutic,demyelinating polyneuropathy
+Treatment::CPO00045,therapeutic,demyelinating polyneuropathy
+Treatment::CPO00046,therapeutic,demyelinating polyneuropathy
+Treatment::CPO00047,therapeutic,demyelinating polyneuropathy
+Treatment::CPO00046,therapeutic,axonal neuropathy
+Treatment::CPO00047,therapeutic,axonal neuropathy
+Treatment::CPO00040,therapeutic,peripheral sensorimotor neuropathy
+Treatment::CPO00048,therapeutic,peripheral sensorimotor neuropathy
+Treatment::CPO00049,therapeutic,peripheral sensorimotor neuropathy
+Treatment::CPO00050,therapeutic,peripheral sensorimotor neuropathy
+Treatment::CPO00051,therapeutic,dysautonomia
+Treatment::CPO00052,therapeutic,dysautonomia
+Treatment::CPO00053,therapeutic,dysautonomia
+Treatment::CPO00054,therapeutic,muscle atrophy
+Treatment::CPO00020,therapeutic,ataxia

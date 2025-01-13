@@ -1,0 +1,15 @@
+name,id
+Hearing Disorders,Symptom::D006311
+Vomiting,Symptom::D014839
+Communication Disorders,Symptom::D003147
+Sensation Disorders,Symptom::D012678
+Constipation,Symptom::D003248
+Vision Disorders,Symptom::D014786
+Seizures,Symptom::D012640
+Urinary incontinence,Symptom::D014549
+Quadriplegia,Symptom::D011782
+Diplegia,Side Effect::C0221165
+Hemiplegia,Symptom::D006429
+Extrapyramidal disorder,Side Effect::C0015371
+Chorea,Symptom::D002819
+Dysarthria,Symptom::D004401

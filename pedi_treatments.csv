@@ -1,0 +1,96 @@
+treatment,kind,effect,symptom
+endoscopic third ventriculostomy,surgical,therapeutic,hydrocephalus
+csf shunt placement,surgical,therapeutic,hydrocephalus
+csf shunt placement,surgical,therapeutic,hydrocephalus
+csf shunt placement,surgical,adverse,irritability
+csf shunt placement,surgical,adverse,anorexia
+csf shunt placement,surgical,adverse,c-reactive protein increased
+csf shunt placement,surgical,adverse,subacute bacterial endocarditis
+csf shunt placement,surgical,adverse,intracranial pressure increased
+csf shunt placement,surgical,adverse,excessive daytime sleepiness
+csf shunt placement,surgical,adverse,headache
+csf shunt placement,surgical,adverse,lethargy
+csf shunt placement,surgical,adverse,nausea
+csf shunt placement,surgical,adverse,vomiting
+folic acid,nutritional,therapeutic,neural tube defect
+ketogenic diet,nutritional,therapeutic,myoclonic epilepsy
+intractable epileptical surgery,surgical,therapeutic,epilepsy
+intractable epileptical surgery,surgical,adverse,motor dysfunction
+intractable epileptical surgery,surgical,adverse,language disorders
+intractable epileptical surgery,surgical,adverse,visual impairment
+intractable epileptical surgery,surgical,adverse,cognitive disorder
+intractable epileptical surgery,surgical,adverse,death
+ketogenic diet,nutritional,therapeutic,epilepsy
+starvation,nutritional,therapeutic,epilepsy
+starvation,nutritional,adverse,constipation
+starvation,nutritional,adverse,weight gain poor
+starvation,nutritional,adverse,hyperlipidaemia
+starvation,nutritional,adverse,calculus of kidney
+atkins diet,nutritional,therapeutic,epilepsy
+vagus nerve stimulation,stimulation,therapeutic,epilepsy
+corpus callosotomy,surgical,therapeutic,epilepsy
+corpus callosotomy,surgical,adverse,mutism
+corpus callosotomy,surgical,adverse,apraxia
+conditioning,behavioral,therapeutic,tourette's disorder
+massed negative practice,behavioral,therapeutic,tourette's disorder
+awareness training,behavioral,therapeutic,tourette's disorder
+habit reversal,behavioral,therapeutic,tourette's disorder
+relaxation training,behavioral,therapeutic,tourette's disorder
+bio-feedback,behavioral,therapeutic,tourette's disorder
+hypnosis,behavioral,therapeutic,tourette's disorder
+thalamotomy,surgical,therapeutic,dystonia
+pallidotomy,surgical,therapeutic,dystonia
+deep brain stimulation,stimulation,therapeutic,dystonia
+thalamotomy,surgical,adverse,dysarthria
+thalamotomy,surgical,adverse,dysphagia
+vitamins,nutritional,therapeutic,myoclonus
+cofactors,nutritional,therapeutic,myoclonus
+chelation,nutritional,therapeutic,myoclonus
+biotin,nutritional,therapeutic,myoclonus
+ketogenic diet,nutritional,therapeutic,myoclonus
+transcranial magnetic stimulation,stimulation,therapeutic,myoclonus
+leg stockings,physical,therapeutic,guillain-barre syndrome
+exercise,physical,therapeutic,guillain-barre syndrome
+oral-motor therapy,behavioral,therapeutic,dysphagia
+swallowing therapy,behavioral,therapeutic,dysphagia
+ketogenic diet,nutritional,therapeutic,seizures
+vagus nerve stimulation,stimulation,therapeutic,seizures
+ketogenic diet,nutritional,therapeutic,rett syndrome
+vagus nerve stimulation,stimulation,therapeutic,rett syndrome
+high fiber diet,nutritional,therapeutic,gastrointestinal disorder
+lactulose,nutritional,therapeutic,gastrointestinal disorder
+lactulose,nutritional,therapeutic,rett syndrome
+ankle/foot orthoses,physical,therapeutic,rett syndrome
+ambulation,physical,therapeutic,rett syndrome
+weight bearing,physical,therapeutic,rett syndrome
+prone stander,physical,therapeutic,rett syndrome
+progressive bedtime delay,behavioral,therapeutic,sleep phase rhythm disturbance
+bright light therapy,behavioral,therapeutic,sleep phase rhythm disturbance
+serial casting,physical,therapeutic,diplegia
+selective dorsal rhizotomy,surgical,therapeutic,diplegia
+tendo-achilles lengthening,surgical,therapeutic,hemiplegia
+deep brain stimulation,surgical,therapeutic,extrapyramidal disorders
+orthotics,physical,therapeutic,scoliosis
+orthotics,physical,adverse,dermatitis
+orthotics,physical,adverse,infection
+orthotics,physical,adverse,skin breakdown
+posterior fixation,surgical,therapeutic,scoliosis
+anterior fixation,surgical,therapeutic,scoliosis
+anterior spinal fusion,surgical,therapeutic,scoliosis
+deep brain stimulation,stimulation,therapeutic,chorea
+pallidotomy,surgical,therapeutic,chorea
+hematopoietic stem cell transplantation,transplantation,therapeutic,demyelinating polyneuropathy
+bone marrow transplantation,transplantation,therapeutic,demyelinating polyneuropathy
+kidney transplantation,transplantation,therapeutic,demyelinating polyneuropathy
+liver transplantation,transplantation,therapeutic,demyelinating polyneuropathy
+kidney transplantation,transplantation,therapeutic,axonal neuropathy
+liver transplantation,transplantation,therapeutic,axonal neuropathy
+orthotics,physical,therapeutic,peripheral sensorimotor neuropathy
+arthrodesis,surgical,therapeutic,peripheral sensorimotor neuropathy
+tendon transfer,surgical,therapeutic,peripheral sensorimotor neuropathy
+splints,physical,therapeutic,peripheral sensorimotor neuropathy
+feeding bottles,physical,therapeutic,dysautonomia
+gastrostomy,surgical,therapeutic,dysautonomia
+fundoplication,surgical,therapeutic,dysautonomia
+tracheostomy,surgical,therapeutic,muscle atrophy
+vitamins,nutritional,therapeutic,ataxia

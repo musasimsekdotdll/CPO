@@ -1,0 +1,55 @@
+id,name,kind
+Treatment::CPO00001,endoscopic third ventriculostomy,surgical
+Treatment::CPO00002,csf shunt placement,surgical
+Treatment::CPO00003,folic acid,nutritional
+Treatment::CPO00004,ketogenic diet,nutritional
+Treatment::CPO00005,intractable epileptical surgery,surgical
+Treatment::CPO00006,starvation,nutritional
+Treatment::CPO00007,atkins diet,nutritional
+Treatment::CPO00008,vagus nerve stimulation,stimulation
+Treatment::CPO00009,corpus callosotomy,surgical
+Treatment::CPO00010,conditioning,behavioral
+Treatment::CPO00011,massed negative practice,behavioral
+Treatment::CPO00012,awareness training,behavioral
+Treatment::CPO00013,habit reversal,behavioral
+Treatment::CPO00014,relaxation training,behavioral
+Treatment::CPO00015,bio-feedback,behavioral
+Treatment::CPO00016,hypnosis,behavioral
+Treatment::CPO00017,thalamotomy,surgical
+Treatment::CPO00018,pallidotomy,surgical
+Treatment::CPO00019,deep brain stimulation,stimulation
+Treatment::CPO00020,vitamins,nutritional
+Treatment::CPO00021,cofactors,nutritional
+Treatment::CPO00022,chelation,nutritional
+Treatment::CPO00023,biotin,nutritional
+Treatment::CPO00024,transcranial magnetic stimulation,stimulation
+Treatment::CPO00025,leg stockings,physical
+Treatment::CPO00026,exercise,physical
+Treatment::CPO00027,oral-motor therapy,behavioral
+Treatment::CPO00028,swallowing therapy,behavioral
+Treatment::CPO00029,high fiber diet,nutritional
+Treatment::CPO00030,lactulose,nutritional
+Treatment::CPO00031,ankle/foot orthoses,physical
+Treatment::CPO00032,ambulation,physical
+Treatment::CPO00033,weight bearing,physical
+Treatment::CPO00034,prone stander,physical
+Treatment::CPO00035,progressive bedtime delay,behavioral
+Treatment::CPO00036,bright light therapy,behavioral
+Treatment::CPO00037,serial casting,physical
+Treatment::CPO00038,selective dorsal rhizotomy,surgical
+Treatment::CPO00039,tendo-achilles lengthening,surgical
+Treatment::CPO00040,orthotics,physical
+Treatment::CPO00041,posterior fixation,surgical
+Treatment::CPO00042,anterior fixation,surgical
+Treatment::CPO00043,anterior spinal fusion,surgical
+Treatment::CPO00044,hematopoietic stem cell transplantation,transplantation
+Treatment::CPO00045,bone marrow transplantation,transplantation
+Treatment::CPO00046,kidney transplantation,transplantation
+Treatment::CPO00047,liver transplantation,transplantation
+Treatment::CPO00048,arthrodesis,surgical
+Treatment::CPO00049,tendon transfer,surgical
+Treatment::CPO00050,splints,physical
+Treatment::CPO00051,feeding bottles,physical
+Treatment::CPO00052,gastrostomy,surgical
+Treatment::CPO00053,fundoplication,surgical
+Treatment::CPO00054,tracheostomy,surgical
