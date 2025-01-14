@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/musker/ontologies/CPO#"
+     xml:base="http://www.semanticweb.org/musker/ontologies/CPO"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/musker/ontologies/CPO"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#symptomManifestationOfDisease -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#symptomManifestationOfDisease">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Symptom"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Disease"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#treatmentHasAdverseEffect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#treatmentHasAdverseEffect">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Treatment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Symptom"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#treatmentHasTherapeuticEffect"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#treatmentHasTherapeuticEffect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#treatmentHasTherapeuticEffect">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Treatment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Symptom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <owl:inverseOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#diseaseName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#diseaseName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Disease"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#symptomName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#symptomName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Symptom"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#treatmentName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#treatmentName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Treatment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#diseaseId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#diseaseId">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Disease"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#symptomId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#symptomId">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Symptom"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#treatmentId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#treatmentId">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Treatment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#Disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#MedicalCondition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Symptom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Treatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#BehavioralTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#NutritionalTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#PhysicalTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#StimulationalSurgery"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#SurgicalTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#TransplantationalSurgery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#MedicalCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#MedicalCondition">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Treatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#BehavioralTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#NutritionalTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#PhysicalTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#StimulationalSurgery"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#SurgicalTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#TransplantationalSurgery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#Symptom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#Symptom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#MedicalCondition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Treatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#BehavioralTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#NutritionalTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#PhysicalTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#StimulationalSurgery"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#SurgicalTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#TransplantationalSurgery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#Treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#Treatment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#BehavioralTreatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#BehavioralTreatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Treatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#NutritionalTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#PhysicalTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#StimulationalSurgery"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#SurgicalTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#TransplantationalSurgery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#NutritionalTreatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#NutritionalTreatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Treatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#PhysicalTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#StimulationalSurgery"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#SurgicalTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#TransplantationalSurgery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#PhysicalTreatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#PhysicalTreatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Treatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#StimulationalSurgery"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#SurgicalTreatment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#TransplantationalSurgery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#StimulationalSurgery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#StimulationalSurgery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#SurgicalTreatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#SurgicalTreatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#SurgicalTreatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/musker/ontologies/CPO#TransplantationalSurgery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/musker/ontologies/CPO#TransplantationalSurgery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/musker/ontologies/CPO#SurgicalTreatment"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
