@@ -14,21 +14,21 @@ Treatment::CPO00002,adverse,nausea
 Treatment::CPO00002,adverse,vomiting
 Treatment::CPO00003,therapeutic,neural tube defect
 Treatment::CPO00004,therapeutic,myoclonic epilepsy
-Treatment::CPO00005,therapeutic,epilepsy
+Treatment::CPO00005,therapeutic,intractable epilepsy
 Treatment::CPO00005,adverse,motor dysfunction
 Treatment::CPO00005,adverse,language disorders
 Treatment::CPO00005,adverse,visual impairment
 Treatment::CPO00005,adverse,cognitive disorder
 Treatment::CPO00005,adverse,death
-Treatment::CPO00004,therapeutic,epilepsy
-Treatment::CPO00006,therapeutic,epilepsy
+Treatment::CPO00004,therapeutic,intractable epilepsy
+Treatment::CPO00006,therapeutic,intractable epilepsy
 Treatment::CPO00006,adverse,constipation
 Treatment::CPO00006,adverse,weight gain poor
-Treatment::CPO00006,adverse,hyperlipidaemia
+Treatment::CPO00006,adverse,hyperlipidemia
 Treatment::CPO00006,adverse,calculus of kidney
-Treatment::CPO00007,therapeutic,epilepsy
-Treatment::CPO00008,therapeutic,epilepsy
-Treatment::CPO00009,therapeutic,epilepsy
+Treatment::CPO00007,therapeutic,intractable epilepsy
+Treatment::CPO00008,therapeutic,intractable epilepsy
+Treatment::CPO00009,therapeutic,intractable epilepsy
 Treatment::CPO00009,adverse,mutism
 Treatment::CPO00009,adverse,apraxia
 Treatment::CPO00010,therapeutic,tourette's disorder
